@@ -91,7 +91,7 @@ label .req {
   margin: 2px;
   color: #1ab188;
 }
-
+label.error { color: darkred }
 label.active {
   -webkit-transform: translateY(50px);
   transform: translateY(50px);
@@ -124,6 +124,8 @@ input:focus, textarea:focus {
   outline: 0;
   border-color: #1ab188;
 }
+
+input.ng-invalid.ng-dirty{border-color: darkred}
 
 textarea {
   border: 2px solid #a0b3b0;
